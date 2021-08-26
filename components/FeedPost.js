@@ -9,7 +9,7 @@ let date = new Date().toLocaleDateString().slice(0, 10).replace(/-/g, '/');
 
 function FeedPost() {
     return (
-        <PostContainer className='p-5 md:p-10'>
+        <PostContainer className=' md:p-10'>
             <PostUserInfo className='flex mb-4'>
                 <Image
                     src="https://cdn3.iconfinder.com/data/icons/avatar-47/64/person-avatar-male-man-2-512.png"
