@@ -30,10 +30,10 @@ function FeedPost() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corporis debitis reiciendis fuga iste placeat perferendis nesciunt, ex voluptatem error, saepe quibusdam accusantium exercitationem voluptatibus, impedit corrupti maiores magnam incidunt.
             </PostContent>
             <PostOptions className='flex justify-evenly w-full'>
-                <PostAction Icon={MdFavoriteBorder} title="Like" color="#ff2a6d" />
-                <PostAction Icon={MdComment} title="Comment" color="gray" />
-                <PostAction Icon={MdShare} title="Share" color="orange" />
-                <PostAction Icon={MdSend} title="Send" color="#005678" />
+                <PostAction Icon={MdFavoriteBorder} title="Like" color="#ff2a6d" onClick={()=>{}}/>
+                <PostAction Icon={MdComment} title="Comment" color="gray" onClick={()=>{}} />
+                <PostAction Icon={MdShare} title="Share" color="orange" onClick={()=>{}} />
+                <PostAction Icon={MdSend} title="Send" color="#005678" onClick={()=>{}} />
             </PostOptions>
 
         </PostContainer>
