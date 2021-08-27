@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function Footer() {
     return (
-        <FooterContainer className='bottom-0 fixed h-1/5 w-full border-t-2 bg-gray-800 flex-col'>
+        <FooterContainer className='bottom-0 fixed h-1/5 w-full bg-gray-800 flex-col'>
             <FooterContents className='flex flex-cols-3 justify-evenly mt-10'>
                 <FooterInfo>
                     <h2 className='font-bold text-xl mb-4'>Services</h2>

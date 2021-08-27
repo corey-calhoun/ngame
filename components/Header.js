@@ -8,7 +8,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 function Header() {
     return (
-        <HeaderContainer className='flex sticky top-0 w-full z-100 items-center font-semibold p-5 justify-center border-b-2 bg-gray-800'>
+        <HeaderContainer className='flex sticky top-0 w-full items-center font-semibold p-5 justify-center bg-gray-800'>
             <div className='flex items-center  flex-shrink-0 md:w-1/2 lg:w-1/3 xl:w-1/3 p-4 '>
                 <Image
                     src={logo}
@@ -60,6 +60,5 @@ function Header() {
 export default Header
 
 const HeaderContainer = styled.header`
-    width: 100%;
     z-index: 100;
 `;
