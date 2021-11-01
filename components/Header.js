@@ -8,7 +8,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 function Header() {
     return (
-        <HeaderContainer className='flex sticky top-0 w-full items-center font-semibold p-5 justify-center bg-gray-800'>
+        <HeaderContainer className='flex sticky top-0 w-full items-center font-semibold p-5 justify-center bg-gray-800 z-100'>
             <div className='flex items-center  flex-shrink-0 md:w-1/2 lg:w-1/3 xl:w-1/3 p-4 '>
                 <Image
                     src={logo}
@@ -24,7 +24,7 @@ function Header() {
                     placeholder='Search'
                 />
             </div>
-            <div className='hidden md:flex lg:flex xl:flex items-center  p-5 space-x-4 md:text-lg lg:text-xl xl:text-2xl mx-auto'>
+            <div className='hidden md:flex lg:flex xl:flex items-center  p-5 space-x-4 xl:text-lg mx-auto'>
                 <h1 className='cursor-pointer'>Home</h1>
                 <h1 className='cursor-pointer'>Explore Now</h1>
                 <h1 className='cursor-pointer'>About Us</h1>

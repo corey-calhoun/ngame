@@ -6,7 +6,7 @@ import { GiBalaclava } from 'react-icons/gi'
 
 function Sidebar() {
     return (
-        <SidebarContainer className='sm:hidden md:flex-col w-1/3 py-10 rounded-lg left-10 shadow-md h-1/2 bg-yellow-500 fixed'>
+        <SidebarContainer className='sm:hidden md:flex-col w-1/3 py-10 rounded-lg left-10 shadow-md h-1/2 bg-yellow-500 fixed justify-center'>
             <SidebarHeader>
                 <Image
                     src="https://www.nj.com/resizer/h8MrN0-Nw5dB5FOmMVGMmfVKFJo=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SJGKVE5UNVESVCW7BBOHKQCZVE.jpg"

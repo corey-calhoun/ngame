@@ -12,7 +12,7 @@ function index() {
     <AppContainer className='flex-col bg-gray-700 w-full h-screen text-white overflow-y-auto '>
       <Header />
 
-      <MainBody className='flex mt-8 relative '>
+      <MainBody className='flex mt-8 relative'>
         <Sidebar />
 
         <MainFeed />
@@ -21,7 +21,7 @@ function index() {
       </MainBody>
 
       <Footer />
-    </AppContainer >
+    </AppContainer>
   )
 }
 
